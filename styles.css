@@ -1,0 +1,90 @@
+/*header*/
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+p{
+    margin-right: 25px;
+}
+section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    flex-direction: column;
+
+}
+.menu{
+    height: 20px;
+    margin-right: 25px;
+}
+#googleImage{
+    width: 300px;
+    margin-bottom: 25px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border: 2px solid #EAEAEA;
+    border-radius: 70px;
+    padding: 0 10px 0;
+}
+.search-icon{
+    margin-right: 15px;
+}
+.search-bar>input{
+    width: 400px;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color:#404040;
+}
+button{
+    height: 2rem;
+    margin-top: 25px;
+    margin-right: 5px; 
+    border: none;
+}
+.footer{
+    width: auto;
+    height: 135px;
+    background-color:  aliceblue;
+    color: #202124;
+}
+.konum{
+    border-bottom: #000000;
+}
+.konum>p{
+    padding: 1rem;
+    border-bottom: 1px solid #dadce0 ;
+}
+p>img{
+    width: 1rem;
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    margin-left: 1rem;
+}
+.greenwashing{
+    display: flex;
+    margin-right: 10rem;
+}
+.security{
+    display:flex ;
+}
+@media(max-width:1120px){
+    .greenwashing{
+        display: block;
+        margin: auto;
+    }
+}
